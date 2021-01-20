@@ -4,7 +4,12 @@ header > h1 {
 header > h3 {
   font-family: "Lobster", cursive;
 }
-
+#input {
+  font-family: "Love Ya Like A Sister", cursive;
+}
+#result {
+  font-family: "Rye", cursive;
+}
 .textPurple {
   color: blueviolet;
 }
