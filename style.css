@@ -4,3 +4,7 @@ header > h1 {
 header > h3 {
   font-family: "Lobster", cursive;
 }
+
+.textPurple {
+  color: blueviolet;
+}
