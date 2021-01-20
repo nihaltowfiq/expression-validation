@@ -15,12 +15,48 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
 
     <title>Expression Validation App</title>
   </head>
   <body>
-    <div class="container">
-      <h2>Expression Validation App</h2>
+    <div class="container mt-5">
+      <div class="container">
+        <header class="text-center">
+          <h1 class="text-primary">Expression Validation App</h1>
+          <h3 class="bg-light text-info">
+            Check your expression valid or invalid!!
+          </h3>
+        </header>
+
+        <main class="text-center">
+          <button class="forEmail btn btn-warning my-2 btn-sm font-weight-bold">
+            For Email Validation
+          </button>
+          <br />
+          <button class="forPostal btn btn-warning my-2 font-weight-bold">
+            For Postal Code Validation
+          </button>
+          <br />
+          <button class="forPhone btn btn-warning my-2 btn-lg font-weight-bold">
+            For Phone Number Validation
+          </button>
+
+          <section class="resultContainer">
+            <h2 class="mb-0 text-secondary mt-4">Result</h2>
+            <span class="text-primary">&#9660;</span>
+            <h1 id="result"></h1>
+          </section>
+        </main>
+      </div>
     </div>
 
     <script src="script/script.js"></script>
